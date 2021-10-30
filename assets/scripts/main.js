@@ -72,6 +72,13 @@ function createRecipeCards() {
   // three recipes we give you, you'll use the bindShowMore() function to
   // show any others you've added when the user clicks on the "Show more" button.
   // Part 1 Expose - TODO
+  let main = document.querySelector("main");
+
+  for (let i = 0; i < Object.keys(recipeData).length; i++) {
+    let recipe_card = document.createElement("recipe-card");
+    recipe_card.data = recipeData[recipes[i]];
+    main.appendChild(recipe_card);
+  }
 }
 
 function bindShowMore() {
