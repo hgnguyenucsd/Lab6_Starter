@@ -108,6 +108,13 @@ class RecipeCard extends HTMLElement {
             imageLink = data["@graph"][i].url;
           }
         }
+      } else if (data["image"]) {
+        console.log(typeof data["image"]);
+        if (typeof data["image"] === "string") {
+          imageLink = data["image"];
+        } else {
+          imageLink = data["image"][0];
+        }
       }
     }
     image.setAttribute("src", imageLink);
@@ -129,6 +136,7 @@ class RecipeCard extends HTMLElement {
     card.appendChild(organization);
 
     const rating = document.createElement("div");
+    rating.classList.add("rating");
     let aggRating = searchForKey(data, "aggregateRating");
     if (aggRating) {
       const rValue = document.createElement("span");

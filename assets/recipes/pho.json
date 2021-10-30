@@ -1,0 +1,344 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.recipetineats.com/#organization",
+      "name": "RecipeTin Eats",
+      "url": "https://www.recipetineats.com/",
+      "sameAs": [
+        "https://www.facebook.com/RecipeTinEats",
+        "http://instagram.com/recipe_tin",
+        "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+        "https://www.youtube.com/c/recipetineats",
+        "http://www.pinterest.com/recipetin/"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.recipetineats.com/#logo",
+        "inLanguage": "en-US",
+        "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+        "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+        "width": 2591,
+        "height": 347,
+        "caption": "RecipeTin Eats"
+      },
+      "image": { "@id": "https://www.recipetineats.com/#logo" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.recipetineats.com/#website",
+      "url": "https://www.recipetineats.com/",
+      "name": "RecipeTin Eats",
+      "description": "Fast Prep, Big Flavours",
+      "publisher": { "@id": "https://www.recipetineats.com/#organization" },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.recipetineats.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#primaryimage",
+      "inLanguage": "en-US",
+      "url": "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg",
+      "contentUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg",
+      "width": 900,
+      "height": 1260,
+      "caption": "Beef Pho in a bowl, ready to be eaten"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#webpage",
+      "url": "https://www.recipetineats.com/vietnamese-pho-recipe/",
+      "name": "Vietnamese Pho recipe | RecipeTin Eats",
+      "isPartOf": { "@id": "https://www.recipetineats.com/#website" },
+      "primaryImageOfPage": {
+        "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#primaryimage"
+      },
+      "datePublished": "2020-01-19T07:00:06+00:00",
+      "dateModified": "2020-07-23T21:11:24+00:00",
+      "description": "A traditional Pho recipe that's easy to make at home - as long as you have a big pot! Deeply flavoured crystal clear broth and all the essential toppings.",
+      "breadcrumb": {
+        "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": ["https://www.recipetineats.com/vietnamese-pho-recipe/"]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.recipetineats.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vietnamese recipes",
+          "item": "https://www.recipetineats.com/category/vietnamese-recipes/"
+        },
+        { "@type": "ListItem", "position": 3, "name": "Vietnamese Pho recipe" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#article",
+      "isPartOf": {
+        "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#webpage"
+      },
+      "author": {
+        "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+      },
+      "headline": "Vietnamese Pho recipe",
+      "datePublished": "2020-01-19T07:00:06+00:00",
+      "dateModified": "2020-07-23T21:11:24+00:00",
+      "wordCount": 2264,
+      "commentCount": 246,
+      "publisher": { "@id": "https://www.recipetineats.com/#organization" },
+      "image": {
+        "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#primaryimage"
+      },
+      "thumbnailUrl": "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg",
+      "articleSection": [
+        "Asian Recipes",
+        "Asian Soups",
+        "Beef Recipes",
+        "Iconic Dishes",
+        "Soups",
+        "Vietnamese recipes"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://www.recipetineats.com/vietnamese-pho-recipe/#respond"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+      "name": "Nagi",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.recipetineats.com/#personlogo",
+        "inLanguage": "en-US",
+        "url": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+        "contentUrl": "https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+        "caption": "Nagi"
+      },
+      "description": "I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+      "sameAs": ["http:////www.recipetineats.com/about-me/"]
+    },
+    {
+      "@context": "http://schema.org/",
+      "@type": "Recipe",
+      "name": "Vietnamese Pho recipe",
+      "author": { "@type": "Person", "name": "Nagi" },
+      "description": "Recipe video above. Experience the magic of one of the greatest soups in the world with this easy to follow traditional recipe! The depth of flavour in the broth will blow you away - it looks so clear and light but it&#x27;s packed with flavour!",
+      "datePublished": "2020-01-19T17:00:06+00:00",
+      "image": [
+        "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg",
+        "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg?w=500&h=500&crop=1",
+        "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg?w=500&h=375&crop=1",
+        "https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg?w=480&h=270&crop=1"
+      ],
+      "recipeYield": ["6"],
+      "prepTime": "PT20M",
+      "cookTime": "PT180M",
+      "totalTime": "PT200M",
+      "recipeIngredient": [
+        "2  large onions (, halved)",
+        "150g / 5oz   ginger (, sliced down the centre)",
+        "10  star anise",
+        "4  cinnamon quills",
+        "4  cardamon pods",
+        "3  cloves ((the spice cloves!))",
+        "1.5 tbsp coriander seeds",
+        "1.5kg / 3lb   beef brisket",
+        "1kg / 2lb   meaty beef bones",
+        "1kg / 2lb   marrow bones ((leg, knuckle), cut to reveal marrow)",
+        "3.5 litres / 3.75 quarts   water ((15 cups))",
+        "2 tbsp white sugar",
+        "1 tbsp salt",
+        "40 ml / 3 tbsp   fish sauce ((Note 2))",
+        "50g / 1.5 oz   dried rice sticks ((or 120g/4oz fresh) (Note 3))",
+        "30g / 1 oz   beef tenderloin, raw, very thinly sliced ((Note 4))",
+        "3 - 5  brisket slices ((used for broth))",
+        "Beansprouts, handful",
+        "Thai basil, 3 - 5 sprigs",
+        "Coriander/cilantro, 3 - 5 sprigs ((or more basil))",
+        "Lime wedges*",
+        "Finely sliced red chilli*",
+        "Hoisin sauce*",
+        "Sriracha* ((for spiciness))"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToSection",
+          "name": "Aromatics",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Heat a heavy based skillet over high heat (no oil) until smoking.",
+              "name": "Heat a heavy based skillet over high heat (no oil) until smoking.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-0-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Place onion and ginger in pan cut side down. Cook for a few minutes until it's charred, then turn. Remove and set aside.",
+              "name": "Place onion and ginger in pan cut side down. Cook for a few minutes until it's charred, then turn. Remove and set aside.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-0-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Toast Spices lightly in a dry skillet over medium high heat for 3 minutes.&nbsp;",
+              "name": "Toast Spices lightly in a dry skillet over medium high heat for 3 minutes.&nbsp;",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-0-2"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Remove impurities:",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Rinse bones &amp; brisket then cover with water in large stock pot.",
+              "name": "Rinse bones &amp; brisket then cover with water in large stock pot.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-1-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Boil for 5 minutes, then drain.",
+              "name": "Boil for 5 minutes, then drain.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-1-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Rinse each bone and brisket under tap water.",
+              "name": "Rinse each bone and brisket under tap water.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-1-2"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Broth:",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Wipe pot clean, bring 3.5 litres / 3.75 quarts water to boil.",
+              "name": "Wipe pot clean, bring 3.5 litres / 3.75 quarts water to boil.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add bones and brisket, onion, ginger, Spices",
+              "name": "Add bones and brisket, onion, ginger, Spices",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add onion, ginger, Spices, sugar and salt - water should just barely cover everything.",
+              "name": "Add onion, ginger, Spices, sugar and salt - water should just barely cover everything.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Cover with lid, simmer 3 hours.",
+              "name": "Cover with lid, simmer 3 hours.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-3"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Remove brisket (should be fall-apart tender), cool then refrigerate for later.",
+              "name": "Remove brisket (should be fall-apart tender), cool then refrigerate for later.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-4"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Simmer remaining soup UNCOVERED for 40 minutes.",
+              "name": "Simmer remaining soup UNCOVERED for 40 minutes.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-5"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Strain broth into another pot, discard bones and spices. Should be about 2.5 litres / 2.65 quarts (10 cups), if loads more, reduce.",
+              "name": "Strain broth into another pot, discard bones and spices. Should be about 2.5 litres / 2.65 quarts (10 cups), if loads more, reduce.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-6"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Add fish sauce, adjust salt and sugar if needed. Broth should be beefy, fragrant with spices, savoury and barely sweet.",
+              "name": "Add fish sauce, adjust salt and sugar if needed. Broth should be beefy, fragrant with spices, savoury and barely sweet.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-2-7"
+            }
+          ]
+        },
+        {
+          "@type": "HowToSection",
+          "name": "Assemble:",
+          "itemListElement": [
+            {
+              "@type": "HowToStep",
+              "text": "Prepare rice noodles per packet, just prior to serving.",
+              "name": "Prepare rice noodles per packet, just prior to serving.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-3-0"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Place noodles in bowl. Top with raw beef and brisket.",
+              "name": "Place noodles in bowl. Top with raw beef and brisket.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-3-1"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Ladle over about 400 / 14 oz hot broth - will cook beef to medium rare.",
+              "name": "Ladle over about 400 / 14 oz hot broth - will cook beef to medium rare.",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-3-2"
+            },
+            {
+              "@type": "HowToStep",
+              "text": "Serve with Toppings on the side!",
+              "name": "Serve with Toppings on the side!",
+              "url": "https://www.recipetineats.com/vietnamese-pho-recipe/#wprm-recipe-36115-step-3-3"
+            }
+          ]
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.97",
+        "ratingCount": "56"
+      },
+      "recipeCategory": ["Mains", "Soup"],
+      "recipeCuisine": ["Vietnamese"],
+      "keywords": "beef pho, Pho, Pho recipe",
+      "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#recipe",
+      "isPartOf": {
+        "@id": "https://www.recipetineats.com/vietnamese-pho-recipe/#article"
+      },
+      "mainEntityOfPage": "https://www.recipetineats.com/vietnamese-pho-recipe/#webpage"
+    }
+  ]
+}

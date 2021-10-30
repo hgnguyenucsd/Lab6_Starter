@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "headline": "Honey Walnut Shrimp (蜜汁合桃虾)",
+  "url": "https://madewithlau.com/recipes/honey-walnut-shrimp",
+  "image": [
+    "https://cdn.sanity.io/images/2r0kdewr/production/ba2373f2696dd2c8e36f5b138b0df936c44784c1-1000x1000.jpg",
+    "https://cdn.sanity.io/images/2r0kdewr/production/1075446ac95f5a1fd503c3c26da575e3a08469b2-1000x750.jpg",
+    "https://cdn.sanity.io/images/2r0kdewr/production/f71329459e9c504e8927ffdc68d1b4bbf13b67bf-1000x563.jpg"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Made With Lau"
+  },
+  "datePublished": "2021-04-05",
+  "description": "Learn how to make this classic Chinese banquet (and takeout) dish at home!",
+  "prepTime": "PT20M",
+  "cookTime": "PT25M",
+  "totalTime": "PT45M",
+  "keywords": "undefined",
+  "recipeYield": "4",
+  "recipeCategory": "appetizer",
+  "recipeCuisine": "Chinese",
+  "recipeIngredient": [
+    "20 pieces shrimp",
+    "0.25 tsp salt",
+    "3 oz walnuts",
+    "2 tbsp honey",
+    "sesame seeds",
+    "3 tbsp sugar",
+    "2 tbsp water",
+    "4 tbsp mayonnaise",
+    "3 tbsp sweetened condensed milk",
+    "2 tsp lemon juice",
+    "4 tbsp all purpose flour",
+    "2 tbsp cornstarch",
+    "2 tsp baking powder",
+    "0.5 egg",
+    "7 tbsp water",
+    "2 tsp corn oil"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Prepare shrimp",
+      "text": "Assuming you're starting with peeled, deveined shrimp (which is what my dad recommends), cut each shrimp in half lengthwise. This will help result in a more beautiful, crunchy fry. ",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step1"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prepare sauce",
+      "text": "In a bowl, we'll mix mayonnaise, sweetened condensed milk, and lemon juice. ",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step2"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prepare batter",
+      "text": "In a bowl, we'll beat our egg(s). ",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step3"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prepare sugar syrup (optional)",
+      "text": "If you don't have honey, or don't want to use honey for whatever reason, you can go with the restaurant route.",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step4"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Heat oil, fry walnuts",
+      "text": "We'll fill a pan or wok with enough oil to submerge the walnuts, and heat it to around 300F. ",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step5"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Heat oil, fry shrimp",
+      "text": "Read before you start frying shrimp",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step6"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Plate and garnish",
+      "text": "Mix and coat the shrimp with the sauce from earlier, and add the candied walnuts and sesame seeds.",
+      "url": "https://madewithlau.com/recipes/honey-walnut-shrimp#step7"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "552"
+  },
+  "video": {
+    "@type": "VideoObject",
+    "name": "Honey Walnut Shrimp (蜜汁合桃虾)",
+    "description": "Learn how to make this classic Chinese banquet (and takeout) dish at home!",
+    "thumbnailUrl": [
+      "https://cdn.sanity.io/images/2r0kdewr/production/ba2373f2696dd2c8e36f5b138b0df936c44784c1-1000x1000.jpg",
+      "https://cdn.sanity.io/images/2r0kdewr/production/1075446ac95f5a1fd503c3c26da575e3a08469b2-1000x750.jpg",
+      "https://cdn.sanity.io/images/2r0kdewr/production/f71329459e9c504e8927ffdc68d1b4bbf13b67bf-1000x563.jpg"
+    ],
+    "contentUrl": "https://www.youtube.com/watch?v=P6j4yvrAjgs&&list=PLvd5bo3J-_kq4FcYVCOK6ZR87dCGDqrSH&index=2",
+    "uploadDate": "2021-04-05T22:54:07Z",
+    "duration": "PT00H20M30S"
+  }
+}

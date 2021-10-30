@@ -8,6 +8,10 @@ const recipes = [
   "https://introweb.tech/assets/json/chocolateChip.json",
 ];
 
+recipes.push("assets/recipes/honey-walnut-shrimp.json");
+recipes.push("assets/recipes/fried-rice.json");
+recipes.push("assets/recipes/pho.json");
+
 // Once all of the recipes that were specified above have been fetched, their
 // data will be added to this object below. You may use whatever you like for the
 // keys as long as it's unique, one suggestion might but the URL itself
@@ -74,11 +78,13 @@ function createRecipeCards() {
   // Part 1 Expose - TODO
   let main = document.querySelector("main");
 
-  for (let i = 0; i < Object.keys(recipeData).length; i++) {
+  for (let i = 0; i < 3; i++) {
     let recipe_card = document.createElement("recipe-card");
     recipe_card.data = recipeData[recipes[i]];
     main.appendChild(recipe_card);
   }
+
+  // Object.keys(recipeData).length
 }
 
 function bindShowMore() {
@@ -89,4 +95,32 @@ function bindShowMore() {
   // display it or not, so you don't need to fetch them again. Simply access them
   // in the recipeData object where you stored them/
   // Part 2 Explore - TODO
+
+  let showButton = document.querySelector("#button-wrapper > button");
+  let main = document.querySelector("main");
+  let open = false;
+
+  showButton.addEventListener("click", (event) => {
+    console.log(event);
+    // showButton.onclick = () => {
+    console.log(open);
+    if (open) {
+      console.log("one");
+      open = false;
+      for (let i = 3; i < Object.keys(recipeData).length; i++) {
+        main.removeChild(main.lastChild);
+      }
+      showButton.textContent = "Show more";
+    } else {
+      console.log("two");
+      for (let i = 3; i < Object.keys(recipeData).length; i++) {
+        let recipe_card = document.createElement("recipe-card");
+        recipe_card.data = recipeData[recipes[i]];
+        main.appendChild(recipe_card);
+      }
+      showButton.textContent = "Show less";
+      open = true;
+    }
+    // };
+  });
 }
